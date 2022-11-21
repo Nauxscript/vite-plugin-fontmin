@@ -44,7 +44,9 @@
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "play": "pnpm run -C playground start",
+    "play:build": "pnpm run -C playground build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
