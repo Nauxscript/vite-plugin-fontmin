@@ -13,7 +13,10 @@ export function vitePluginFontmin(): PluginOption {
     apply: 'build', // apply 亦可以是一个函数
 
     // 1. vite 独有的钩子：可以在 vite 被解析之前修改 vite 的相关配置。钩子接收原始用户配置 config 和一个描述配置环境的变量env
-    // config(config, { command }) {},
+    // config(config, { command }) {
+    //   console.log(config)
+    //   console.log(command)
+    // },
 
     // 2. vite 独有的钩子：在解析 vite 配置后调用。使用这个钩子读取和存储最终解析的配置。当插件需要根据运行的命令做一些不同的事情时，它很有用。
     // configResolved(resolvedConfig) {},
@@ -22,7 +25,13 @@ export function vitePluginFontmin(): PluginOption {
     // configureServer(server) {},
 
     // 18的前面. vite 独有的钩子：转换 index.html 的专用钩子。钩子接收当前的 HTML 字符串和转换上下文
-    // transformIndexHtml(html) {},
+    transformIndexHtml(html) {
+      console.log('why not working')
+      return html.replace(
+        /<title>(.*?)<\/title>/,
+        '<title>Title replaced!</title>',
+      )
+    },
 
     // vite 独有的钩子: 执行自定义HMR更新，可以通过ws往客户端发送自定义的事件
     // handleHotUpdate({ file, server }) {},
@@ -40,7 +49,11 @@ export function vitePluginFontmin(): PluginOption {
     // load(id) {},
 
     // 构建阶段的通用钩子：在每个传入模块请求时被调用：在每个传入模块请求时被调用，主要是用来转换单个模块
-    // transform(code, id) {},
+    transform(code, id) {
+      if (!id.endsWith('.astro'))
+        return
+      return code.replace('test', 'nauxscript')
+    },
 
     // 构建阶段的通用钩子：在构建结束后被调用，此处构建只是代表所有模块转义完成
     // buildEnd() {},
@@ -64,12 +77,13 @@ export function vitePluginFontmin(): PluginOption {
 
     // 输出阶段钩子通用钩子：在调用 bundle.write后，所有的chunk都写入文件后，最后会调用一次 writeBundle
     // writeBundle(options, bundle) {
-    //   console.log('nauxscript')
-    //   console.log(bundle)
-    //   console.log(options)
-    // },
+    writeBundle() {
+      console.log('nauxscript')
+    },
 
     // 通用钩子：在服务器关闭时被调用
-    // closeBundle() {},
+    closeBundle() {
+      console.log('closeBundle done')
+    },
   }
 }
