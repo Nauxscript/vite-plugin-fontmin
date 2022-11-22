@@ -1,9 +1,16 @@
 import { defineConfig } from 'astro/config'
-import vitePluginFontmin from 'vite-plugin-fontmin'
+// import Inspect from 'vite-plugin-inspect'
+// import vitePluginFontmin from 'vite-plugin-fontmin'
+import vitePluginFontmin from '../src'
 
 // https://astro.build/config
 export default defineConfig({
   plugins: [
-    vitePluginFontmin(),
   ],
+  vite: {
+    plugins: [
+      // Inspect(),
+      vitePluginFontmin(),
+    ],
+  },
 })

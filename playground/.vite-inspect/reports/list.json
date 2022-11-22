@@ -1,0 +1,353 @@
+{
+  "root": "/Users/naux/learning/vite-plugin-fontmin/playground",
+  "modules": [],
+  "ssrModules": [
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/constants.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/errors/errors-data.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/errors/errors.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/errors/index.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/errors/printer.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/core/errors/utils.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/jsx-runtime/index.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/jsx/server.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/client/idle.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/client/load.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/client/media.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/client/only.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/client/visible.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/astro-global.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/astro-island.prebuilt.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/endpoint.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/escape.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/hydration.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/index.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/jsx.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/any.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/astro.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "astro:vite-plugin-env",
+        "vite:define"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/common.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/component.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/dom.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/head.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/index.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/page.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/slot.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/render/util.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/response.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/scripts.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/serialize.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/shorthash.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/astro@1.6.10/node_modules/astro/dist/runtime/server/util.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/node_modules/.pnpm/html-escaper@3.0.3/node_modules/html-escaper/esm/index.js",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/components/Card.astro",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "astro:build"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/components/Card.astro?astro&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        "astro:build",
+        "vite:css",
+        "vite:css-post"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/layouts/Layout.astro",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "astro:build"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/layouts/Layout.astro?astro&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        "astro:build",
+        "vite:css",
+        "vite:css-post"
+      ],
+      "virtual": true
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/pages/index.astro",
+      "deps": [],
+      "plugins": [
+        "vite:load-fallback",
+        "astro:build"
+      ],
+      "virtual": false
+    },
+    {
+      "id": "/Users/naux/learning/vite-plugin-fontmin/playground/src/pages/index.astro?astro&type=style&index=0&lang.css",
+      "deps": [],
+      "plugins": [
+        "astro:build",
+        "vite:css",
+        "vite:css-post"
+      ],
+      "virtual": true
+    }
+  ]
+}
